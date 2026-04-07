@@ -18,15 +18,20 @@ def calculator():
 
         Para las entradas "10", "0" y "/", la salida esperada es:
         Error: division por cero
+
+        Para las entradas "10", "5" y "x", la salida esperada es:
+        Operacion invalida
+    """
     num1 = float(input("Ingrese un numero: "))
     num2 = float(input("Ingrese un numero: "))
     operacion = input("Ingrese operacion (+, -, *, /): ")
+    
     if operacion == "+":
-        print(f" Resultado: {num1+num2}")
+        print(f"Resultado: {num1 + num2}")
     elif operacion == "-":
-        print(f" Resultado: {num1-num2}")
-    elif operacion=="*":
-        print(f" Resultado: {num1*num2}")
+        print(f"Resultado: {num1 - num2}")
+    elif operacion == "*":
+        print(f"Resultado: {num1 * num2}")
     elif operacion == "/":
         if num2 == 0:
             print("Error: division por cero")
@@ -34,7 +39,3 @@ def calculator():
             print(f"Resultado: {num1 / num2}")
     else:
         print("Operacion invalida")
-
-        Para las entradas "10", "5" y "x", la salida esperada es:
-        Operacion invalida
-    """
