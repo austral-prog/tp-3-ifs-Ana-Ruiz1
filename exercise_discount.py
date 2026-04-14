@@ -24,8 +24,8 @@ def discount():
         Monto de descuento: 240.0
         Total final: 960.0
     """
-    precio = float(input("Ingrese el precio unitario de un producto: "))
-    unidades = int(input("Ingrese la cantidad de unidades a comprar: "))
+    precio = float(input())
+    unidades = int(input())
     subtotal = precio * unidades
     print(f"Subtotal: {subtotal}")
     
