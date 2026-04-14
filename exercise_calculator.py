@@ -22,9 +22,9 @@ def calculator():
         Para las entradas "10", "5" y "x", la salida esperada es:
         Operacion invalida
     """
-    num1 = float(input("Ingrese un numero: "))
-    num2 = float(input("Ingrese un numero: "))
-    operacion = input("Ingrese operacion (+, -, *, /): ")
+    num1 = float(input())
+    num2 = float(input())
+    operacion = input()
     
     if operacion == "+":
         print(f"Resultado: {num1 + num2}")
